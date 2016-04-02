@@ -1,0 +1,64 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    "inputs": [
+        {
+            "id": "origin",
+            "title":"Origin"
+        },
+        {
+            "id": "destination",
+            "title":"Destination"
+        },
+        {
+            "id": "mode",
+            "title": "Travel Mode"
+        },
+        {
+            "id": "avoid",
+            "title":"Avoid"
+        },
+        {
+            "id": "language",
+            "title":"Language"
+        },
+        {
+            "id": "units",
+            "title":"Units"
+        },
+        {
+            "id": "traffic_model",
+            "title":"Traffic Model"
+        },
+        {
+            "id": "transit_mode",
+            "title":"Transit Mode"
+        },
+        {
+            "id": "transit_routing_preference",
+            "title":"Routing Preference"
+        },
+        {
+            "id": "departure_time",
+            "title":"Departure Time"
+        },
+        {
+            "id": "arrival_time",
+            "title":"Arrival Time"
+        }
+
+    ],
+    "outputs": [
+        {
+            "id": "distance",
+            "title":"Distance"
+        },
+        {
+            "id": "duration",
+            "title":"Duration"
+        }
+    ],
+    "icon": "dex-gmaps",
+    "title": "Google Maps Get Time to Location"
+}
